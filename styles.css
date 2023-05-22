@@ -1,0 +1,171 @@
+/* Write your CSS below. */
+
+/* Do not change any CSS below this line. */
+
+:root {
+  --background-blue: #4f6ea0;
+  --line-blue: #104e6e;
+  --old-brass: #cdc369;
+  --soft-white: #e6e6c8;
+  --dark-shadow: rgb(47, 79, 79);
+  --dark-box-shadowing: 4px 4px 8px var(--dark-shadow);
+  --light-slate: #a8bace;
+}
+
+body {
+  color: var(--soft-white);
+}
+
+h1 {
+  color: var(--old-brass);
+  font-size: 3em;
+  text-shadow: 1px 1px #eeeab4;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+ol {
+  font-weight: bold;
+}
+
+ul li {
+  text-align: center;
+  border: 1px solid var(--line-blue);
+  border-radius: 10px;
+  color: var(--line-blue);
+  background-color: var(--old-brass);
+  width: 30%;
+  padding: 2em 1em;
+  margin: 1em;
+  box-shadow: var(--dark-box-shadowing);
+}
+
+.libraries li {
+  text-align: center;
+  border: 1px solid var(--line-blue);
+  border-radius: 10px;
+  color: var(--soft-white);
+  background-color: var(--line-blue);
+  width: 30%;
+  padding: 2em 1em;
+  margin: 1em;
+  box-shadow: var(--dark-box-shadowing);
+}
+
+.links li {
+  width: 10%;
+}
+
+img {
+  width: auto;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: var(--dark-box-shadowing);
+  border-radius: 100%;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+h3 {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 2px;
+  color: var(--light-slate);
+}
+
+html {
+  background-color: var(--background-blue);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23083F44' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23928F6C'%3E%3Ccircle cx='769' cy='229' r='6'/%3E%3Ccircle cx='539' cy='269' r='6'/%3E%3Ccircle cx='603' cy='493' r='6'/%3E%3Ccircle cx='731' cy='737' r='6'/%3E%3Ccircle cx='520' cy='660' r='6'/%3E%3Ccircle cx='309' cy='538' r='6'/%3E%3Ccircle cx='295' cy='764' r='6'/%3E%3Ccircle cx='40' cy='599' r='6'/%3E%3Ccircle cx='102' cy='382' r='6'/%3E%3Ccircle cx='127' cy='80' r='6'/%3E%3Ccircle cx='370' cy='105' r='6'/%3E%3Ccircle cx='578' cy='42' r='6'/%3E%3Ccircle cx='237' cy='261' r='6'/%3E%3Ccircle cx='390' cy='382' r='6'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h2,
+h3 {
+  font-size: 20px;
+}
+
+a {
+  color: var(--soft-white);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--light-slate);
+}
+
+/* modified from https://www.sanwebe.com/2014/08/css-html-forms-designs */
+
+form {
+  width: 60%;
+  font-size: 16px;
+  background: var(--line-blue);
+  padding: 30px 30px 15px 30px;
+  border: 5px solid var(--dark-box-shadowing);
+  border-radius: 10px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  opacity: 0.7;
+}
+
+form input[type="submit"],
+form input[type="button"],
+form input[type="text"],
+form input[type="email"],
+form textarea,
+form label {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  color: var(--soft-white);
+}
+form label {
+  width: 100%;
+  margin-bottom: 10px;
+}
+form label > span {
+  display: inline-block;
+  width: 150px;
+}
+form input[type="text"],
+form input[type="email"] {
+  background: transparent;
+  border: none;
+  border-bottom: 1px dashed #83a4c5;
+  width: 275px;
+  outline: none;
+  padding: 0px 0px 0px 0px;
+  font-style: italic;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus {
+  border-bottom: 1px dashed #d9ffa9;
+}
+
+form input[type="submit"],
+form input[type="button"] {
+  background: var(--dark-shadow);
+  border: none;
+  padding: 8px 10px 8px 10px;
+  border-radius: 5px;
+  color: #a8bace;
+}
+
+form input[type="submit"]:hover,
+form input[type="button"]:hover {
+  background: #394d61;
+}
