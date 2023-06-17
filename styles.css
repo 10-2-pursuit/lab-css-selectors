@@ -1,4 +1,41 @@
 /* Write your CSS below. */
+p{
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: Georgia, serif;
+  color: blue;
+  font-weight: 700;
+  text-decoration: underline solid rgb(0,0,255);
+}
+
+.skills-header{
+  color: rebeccapurple;
+}
+
+body{
+  text-align: center;
+
+}
+.profile-photo{
+  border: 1px solid rgb(0,0,255)
+}
+a{
+  color: rgb(255 ,0,0);
+}
+.language-list{
+  list-style-image: url("./asset/globe.png");
+}
+
+ul{
+  list-style-type: none;
+}
+
 
 /* Do not change any CSS below this line. */
 
