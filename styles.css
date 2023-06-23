@@ -62,9 +62,9 @@ ul li {
 }
 
 img {
-  width: auto;
-  height: 200px;
-  display: block;
+  width: 300px;
+  height: px;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
   box-shadow: var(--dark-box-shadowing);
